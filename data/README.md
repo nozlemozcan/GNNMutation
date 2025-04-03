@@ -40,4 +40,5 @@ The header is:
 
 This is a space delimited file.\
 The content of this file is selected based on the patient mutation features file.\
+node1 column includes patient eids. node2 column includes protein names. edge_weight column includes BM25-tf-rf feature value for the corresponding patient in node1 column and the corresponding protein in node2 column.
 
