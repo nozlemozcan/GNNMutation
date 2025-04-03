@@ -12,9 +12,9 @@ similarity_file=""
 
 #read input
 main_folder = "./data/"    # input folder
-features_file = main_folder+"xfullgene_bm25_tfrf_breast_small200.csv"        # input features file
+features_file = main_folder+"xfullgene_bm25_tfrf_breast_small200_neweid.csv"        # input features file
 ppi_file = main_folder+"ppi_network_pyhsical_String_breast.txt"              # input ppi edges file
-pg_file = main_folder+"pg_network_breast_small200_max300.csv"                # input patient-protein edges file
+pg_file = main_folder+"pg_network_breast_small200_max300_neweid.csv"                # input patient-protein edges file
 print(features_file)
 model_selection = "gat"
 
