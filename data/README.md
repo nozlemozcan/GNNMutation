@@ -29,7 +29,9 @@ The header is:
 > eid, protein1, protein2, ... proteinN, Class
 
 This is a comma delimited file.\
-The feature values for proteins are calculated with BM25-tf-rf metric.\
+The source for this input file is the whole exome VCF files in UKBiobank ( https://www.ukbiobank.ac.uk/ ).\
+The sample feature file uses random eid (patient id) values that are not related to UKBiobank repository.\
+The feature values for proteins are calculated with BM25-tf-rf metric.
    
 ## 3. the protein-patient network file
 > pg_network_breast_small200_max300_neweid.csv
