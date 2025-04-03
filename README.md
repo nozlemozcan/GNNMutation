@@ -1,6 +1,6 @@
 # GNNMutation: a heterogeneous graph-based framework for cancer detection
 
-This repository provides the source-code and a set of synthetic inputs for the GNNMutation method proposed in the study.
+This repository provides the source-code and a set of sample inputs for the GNNMutation method proposed in the study.
 You can try the code with the command below:
 
 python run_GNNMutationHetero.py
